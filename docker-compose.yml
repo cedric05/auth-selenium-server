@@ -1,0 +1,11 @@
+version: '2'
+services:
+  node:
+    build: app
+    ports: 
+      - 8000:8000
+    volumes:
+      - "/usr/local/lib/node_modules:/app/node_modules"
+  selenium:
+    image: selenium/standalone-chrome
+    hostname: selenium
