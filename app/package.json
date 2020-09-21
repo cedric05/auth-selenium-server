@@ -13,7 +13,7 @@
     "author": "prasanth",
     "license": "UNLICENSED",
     "dependencies": {
-    	"http-proxy": "1.16.2"
+    	"http-proxy": "1.18.1"
   }
 
 }
